@@ -3,3 +3,13 @@
 </p>
 
 welcome bot.
+
+Cloudflare Worker (`src/worker.js`, `wrangler.toml`) that welcomes new contributors with JSON API responses and CORS handling.
+
+## Run
+
+```bash
+npm install
+npm run dev    # wrangler dev --local --port 8787
+npm run deploy # wrangler deploy
+```
